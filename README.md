@@ -83,11 +83,10 @@ python -m venv venv
 pip install -r requirements.txt
 copy ..\.env.example .env
 # Edit .env and set SECRET_KEY (optional for local): openssl rand -hex 32
-uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+
 ```
 
-API docs: http://127.0.0.1:8000/docs  
-Health: http://127.0.0.1:8000/api/health
+
 
 ### 4. Frontend (new terminal)
 
@@ -97,7 +96,7 @@ npm install
 npm run dev
 ```
 
-App: http://localhost:5173
+
 
 ### 5. Tests
 
