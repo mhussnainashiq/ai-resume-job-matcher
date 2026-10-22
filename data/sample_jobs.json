@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Senior Python Backend Engineer",
+    "company": "TechNova Solutions (Sample)",
+    "description": "We are looking for a Senior Python Backend Engineer with strong experience in FastAPI, Django, or Flask.",
+    "required_skills": ["python", "fastapi", "sql", "postgresql", "docker", "git"],
+    "preferred_skills": ["kubernetes", "aws", "redis", "ci/cd", "django"],
+    "is_sample": true
+  }
+]
